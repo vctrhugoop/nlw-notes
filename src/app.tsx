@@ -49,7 +49,7 @@ export function App() {
       : notes;
 
   return (
-    <div className="mx-auto my-12 max-w-6xl space-y-6 px-6 ">
+    <div className="mx-auto my-12 max-w-6xl space-y-6 px-5">
       <img src={logo} alt="Logo NLW Expert" />
       <form className="w-full border-b border-slate-700 pb-6">
         <input
@@ -60,7 +60,7 @@ export function App() {
         />
       </form>
 
-      <div className="grid auto-rows-[250px] gap-6 md:grid-cols-3">
+      <div className="grid auto-rows-[250px] gap-6 md:grid-cols-2 lg:grid-cols-3">
         <NewNoteCard onNoteCreated={onNoteCreated} />
         {filteredNotes.map((note) => {
           return <NoteCard key={note.id} note={note} />;
