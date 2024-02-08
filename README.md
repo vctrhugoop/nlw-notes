@@ -13,6 +13,10 @@
      <a href="https://nlw-notes.vercel.app/">📱 Visit this Project</a>
 </p>
 
+<p align="center">
+    <img src="./.github/cover.png">
+</p>
+
 <h2 id="technologies">💻 Technologies</h2>
 
 - React
